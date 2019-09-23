@@ -7,7 +7,7 @@ from dashboard.models import Case
 class CaseSerializer(serializers.ModelSerializer):
 	class Meta: 
 		model = Case
-		fiels = '__all__'
+		fields = '__all__'
 
 
 
